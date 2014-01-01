@@ -18,10 +18,10 @@ if(!function_exists('add_action')) {
 }
 //add_action( 'init', 'aigis_jetpack_loader' );
 //function aigis_jetpack_loader() {
-	include_once(dirname( __FILE__ ) . '/jetpack.php');
+	include_once(plugin_dir_path( __FILE__ ) . 'jetpack.php');
 //}
 
 if(is_admin())
-	include_once(dirname( __FILE__ ) . '/admin.php');
+	include_once(plugin_dir_path( __FILE__ ) . 'admin.php');
 
 ?>
