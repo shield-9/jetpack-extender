@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: Aigis Shortener for WordPress
+Plugin Name: Jetpack Extender
 Plugin URI: http://example.org/extend/plugins/aigis/
 Description: This plugin extends Jetpack Sharing Service.
 Version: 0.1-dev
 Author: Shield-9 (Extend Wings, Daisuke)
 Author URI: http://www.extendwings.com
-License: GPLv2
-License URI: COPYING.txt
+License: AGPLv3
+License URI: LICENSE
 Text Domain: aigis
 Domain Path: /languages/
 */
