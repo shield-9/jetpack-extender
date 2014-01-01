@@ -1,0 +1,10 @@
+li.share-print a.sd-button > span {
+	background-image: url('images/print.png');
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 120dpi) {
+	li.share-facebook a.sd-button > span {
+		background-image: url('images/facebook@2x.png');
+		background-size: 16px 16px;
+	}
+}
